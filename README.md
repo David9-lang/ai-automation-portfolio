@@ -1,2 +1,99 @@
-# ai-automation-portfolio
-AI automation, RevOps, and workflow architecture demonstrations using synthetic data.
+# David Quintero
+### AI Automation & RevOps Architect
+**Make.com · HubSpot · API Integrations · Google Apps Script · Multi-LLM Workflows**
+
+I design and build automation systems that connect business data, AI, and marketing operations.
+
+Based in Taipei, I bring 10 years of experience across digital marketing, SEO, business development, and marketing operations. That background helps me understand the process behind a technical brief: who needs the information, what decisions it supports, and what should happen next.
+
+My work spans multilingual localization, prospect research, CRM qualification, conversational analytics, and document processing.
+
+## What I Build
+
+| Area | Applications |
+|---|---|
+| AI workflow orchestration | Research, classification, content processing, and coordinated model calls |
+| CRM & RevOps automation | Enrichment, qualification, record updates, and reporting |
+| B2B research systems | Company discovery, configurable prospect searches, and evaluation |
+| Localization operations | Translation, regional review, approvals, and feedback capture |
+| Custom business interfaces | Google Sheets control panels and Apps Script chat interfaces |
+| Data processing | Document extraction and structured reporting pipelines |
+
+## Project Showcases
+
+*Case studies and independent demonstrations are being prepared.*
+
+### 01 · AI Localization & Review Engine
+**Turn a multilingual content process into a coordinated workflow.**
+
+Demonstration scope: content intake, translation, AI review against regional guidelines, human proofreading, approval, and delivery.
+
+The case study will explain how reviewer corrections can update context used in future runs, alongside execution and cost tracking.
+
+**Technologies:** Make.com, Google Sheets, DeepL, Anthropic Claude, Gmail.
+
+---
+
+### 02 · B2B Company & Prospect Research Automation
+**Turn search criteria into a structured prospect shortlist.**
+
+Demonstration scope: company discovery, configurable people searches, profile research, AI-assisted evaluation, and a human review queue.
+
+The case study will cover optional filters, incomplete results, classification logic, and execution-cost visibility.
+
+**Technologies:** Make.com, Apify, Perplexity, OpenAI, Google Sheets.
+
+---
+
+### 03 · Conversational Analytics Agent
+**Give teams a conversational interface to operational reporting data.**
+
+Demonstration scope: an Apps Script chat interface connected to a Make.com backend and reporting tools.
+
+The case study will show how questions become filtered data requests and answers with traceable source references.
+
+**Technologies:** Google Apps Script, Make.com, AI agents, Google Sheets.
+
+---
+
+### 04 · CRM Research & Qualification Pipeline
+**Turn incoming contacts into researched, reviewable CRM information.**
+
+Demonstration scope: contact intake, company research, structured classification, and proposed record updates.
+
+The case study will explain data validation, handling unknown information, and review before writing results to a CRM.
+
+**Technologies:** HubSpot, Make.com, Apify, Perplexity, OpenAI, Google Sheets.
+
+## Engineering Approach
+
+I start with the business process and define the inputs, decisions, outputs, and ownership before building.
+
+My approach includes:
+
+- Choosing where deterministic rules or AI judgment are appropriate.
+- Validating inputs and handling missing information.
+- Designing routing, error handling, and recovery.
+- Including human review where decisions require it.
+- Tracking execution costs and operational status.
+- Testing realistic cases and documenting the handoff.
+
+## Technical Toolkit
+
+**Orchestration:** Make.com, webhooks, REST API integrations, JSON processing  
+**CRM & marketing operations:** HubSpot, 6sense, Semrush  
+**AI & research:** OpenAI, Anthropic Claude, DeepL, Perplexity, Apify  
+**Interfaces & delivery:** Google Apps Script, Google Sheets, Google Slides, Google Workspace
+
+## About This Portfolio
+
+This portfolio presents independently created demonstrations using fictional organizations and synthetic data.
+
+The demonstrations illustrate skills developed through professional experience. They do not reproduce employer systems or disclose internal workflows, customer information, proprietary prompts, or confidential business rules.
+
+Any published performance measurements will identify whether they come from a demonstration or an authorized real-world case study.
+
+## Languages & Location
+
+📍 Taipei, Taiwan  
+English · Native Spanish · Intermediate Mandarin

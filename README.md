@@ -95,5 +95,7 @@ Any published performance measurements will identify whether they come from a de
 
 ## Languages & Location
 
+[View LocaleFlow case study →](projects/localization-engine/README.md)
+
 📍 Taipei, Taiwan  
 English · Native Spanish · Intermediate Mandarin

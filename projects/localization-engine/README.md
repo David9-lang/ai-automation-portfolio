@@ -104,3 +104,25 @@ Measured results will be added after testing. No time savings, quality improveme
 ## Portfolio Disclosure
 
 LocaleFlow is an independently designed demonstration using a fictional organization and synthetic data. It does not reproduce an employer's implementation or include internal content, prompts, business rules, or customer information.
+
+## Interface Walkthrough
+
+These screenshots show an independent demonstration using
+fictional content and manually authored sample results.
+No live automation is connected.
+
+### 1. Campaign Intake
+Select target languages and define source copy and character limits.
+
+![LocaleFlow campaign intake](images/campaign-intake.png)
+
+### 2. Regional Review
+Compare translation drafts with reviewer edits and capture
+feedback for future guidance.
+
+![LocaleFlow regional review](images/regional-review.png)
+
+### 3. Delivery & Tracking
+View sample approved translations and illustrative execution costs.
+
+![LocaleFlow delivery and tracking](images/delivery-tracking.png)

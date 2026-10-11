@@ -2,7 +2,8 @@
 ### AI-Assisted Localization & Review Workflow
 
 **Independent portfolio demonstration · Synthetic content and data**  
-**Status:** Case-study design; implementation and demo assets forthcoming.
+**Status:** Demonstration interfaces and architecture available.  
+Based on experience designing and implementing a localization system currently used by a global marketing department.
 
 ## The Business Problem
 
@@ -11,6 +12,36 @@ A fictional B2B equipment company produces campaigns in English and adapts them 
 Its manual process involves copying content between documents, checking terminology, coordinating reviewers, and consolidating approved versions. Reviewer corrections remain scattered, making them difficult to reuse.
 
 LocaleFlow demonstrates an approach to coordinating this process through a shared workflow.
+
+## My Role & Production Experience
+
+I designed and implemented a localization and proofreading system that is now used by a global marketing department.
+
+I gathered requirements from the headquarters team, built the workflows in Make.com and Google Sheets, and incorporated feedback from regional marketers. My responsibilities covered workflow design, configuration, testing, troubleshooting, and iteration.
+
+The operational system supports:
+
+- English content intake and task registration.
+- Translation and delivery to regional reviewers.
+- Review reminders and approved-content return.
+- Terminology knowledge bases and regional guidelines.
+- Reviewer-feedback capture for future AI context.
+- Execution-cost logging.
+- A central task log for tracking requests and progress.
+
+### The Problem I Solved
+
+Translation requests were spread across email threads, tools, and service providers. Regional marketers received overlapping requests, while headquarters had difficulty following the status of individual jobs.
+
+I brought these activities into a coordinated Google Sheets and Make.com workflow, with a central task log and defined stages for submission, translation, proofreading, and delivery.
+
+The resulting system gives the team a shared place to track work and coordinate the process.
+
+### How LocaleFlow Represents This Experience
+
+LocaleFlow is a separately created portfolio demonstration of these capabilities. Its fictional content, sample interfaces, and architecture illustrate my approach without reproducing the employer's implementation.
+
+The screenshots show manually authored examples. They are not screenshots of the production system, and the portfolio demonstration is not connected to live automation.
 
 ## Proposed Workflow
 
@@ -71,13 +102,13 @@ It captures reviewer corrections and turns approved patterns into reusable termi
 
 ## Demonstration Assets
 
-Planned assets include:
+Available assets include:
 
-- A master-sheet interface with content intake and job status.
-- A regional review interface using fictional campaign copy.
-- A source → draft → reviewer correction example.
-- An execution log with illustrative usage and costs.
-- A short walkthrough of a complete localization job.
+- A campaign-intake interface with fictional source copy and locale selections.
+- A regional review interface showing sample drafts and reviewer edits.
+- A delivery and tracking interface with sample approved translations and illustrative costs.
+
+See the Interface Walkthrough below. A live automation demonstration and video walkthrough remain planned.
 
 ## Technology Roles
 
@@ -99,7 +130,7 @@ The demonstration will test:
 - An API failure and recovery path.
 - A reviewer correction followed by an approved guidance update.
 
-Measured results will be added after testing. No time savings, quality improvements, or production reliability claims are made at this stage.
+Measured results will be added after testing. No measured time savings, quality improvements, or reliability results are claimed for the portfolio demonstration.
 
 ## Portfolio Disclosure
 

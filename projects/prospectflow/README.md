@@ -2,7 +2,7 @@
 ### Company Discovery, Prospect Research & Email Enrichment
 
 **Independent portfolio case study · Demonstration assets will use synthetic data**  
-**Status:** Case-study overview available; fictional interfaces and demonstration results are being prepared.
+**Status:** Case-study overview and three animated workflow illustrations available. Fictional interface examples and demonstration results are being prepared.
 
 ## The Business Problem
 
@@ -71,6 +71,28 @@ flowchart TD
 
 The table describes broad roles, not the exact provider order or internal integration configuration.
 
+## Animated Workflow Walkthrough
+
+These looping animations illustrate the process at a conceptual level. They contain no live records or internal screenshots.
+
+### 1. Company Discovery
+
+Google Sheets passes company domains to Apify to find LinkedIn company pages. When a page is not found, Perplexity provides a fallback research route. Available regional page details and follower counts return to Google Sheets.
+
+![Company discovery with Apify and Perplexity fallback](images/01-company-discovery.gif)
+
+### 2. People Research & Scoring
+
+Selected targeting filters guide the search for relevant individuals. Available LinkedIn posts and interaction data feed AI-assisted activity summaries and profile scores, with organized results returned to Google Sheets.
+
+![People discovery, LinkedIn activity research, and profile scoring](images/02-people-research-scoring.gif)
+
+### 3. Waterfall Enrichment & CRM Synchronization
+
+Individual records are checked against HubSpot first. Existing contacts bypass the new-contact enrichment route and receive research updates. New contacts proceed through Apollo, 6sense checks, and Perplexity research before available results synchronize back to HubSpot.
+
+![HubSpot lookup, waterfall enrichment, and CRM synchronization](images/03-waterfall-enrichment-crm.gif)
+
 ## Demonstration Assets — Planned
 
 The independent demonstration will use fictional organizations and synthetic contact records to illustrate:
@@ -84,7 +106,7 @@ No live employer records, real contact email addresses, proprietary scoring crit
 
 ## Evidence & Results
 
-This page currently documents scope and professional responsibilities. Demonstration screenshots and validation results will be added separately.
+This page documents scope and professional responsibilities and includes animated conceptual walkthroughs. Demonstration screenshots and validation results will be added separately.
 
 No numerical claims about time savings, email accuracy, deliverability, or sales performance are made here. Finding an email address does not by itself establish that the address is verified.
 

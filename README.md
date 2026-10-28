@@ -1,4 +1,4 @@
-# David Quintero
+# Eulises David Quintero
 ### AI Automation & RevOps Architect
 **Make.com · HubSpot · API Integrations · Google Apps Script · Multi-LLM Workflows**
 

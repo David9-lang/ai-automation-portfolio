@@ -1,125 +1,109 @@
 # Eulises David Quintero
 ### AI Automation & RevOps Architect
-**Make.com · HubSpot · API Integrations · Google Apps Script · Multi-LLM Workflows**
+**Make.com · HubSpot · API Integrations · Google Apps Script · AI Workflows**
 
-I design and build automation systems that connect business data, AI, and marketing operations.
+I build systems that connect research, AI, and CRM operations—from localization and prospect discovery to sales handoffs and conversation intelligence.
 
-Based in Taipei, I bring 10 years of experience across digital marketing, SEO, business development, and marketing operations. That background helps me understand the process behind a technical brief: who needs the information, what decisions it supports, and what should happen next.
+Based in Taipei, I bring 10 years of experience across digital marketing, SEO, business development, and marketing operations. I translate business requirements into working workflows, practical interfaces, and organized information that teams can act on.
 
-My work spans multilingual localization, prospect research, CRM qualification, conversational analytics, and document processing.
+## Explore My Work
 
-## What I Build
+| Business need | Case study | What you can explore |
+|---|---|---|
+| Coordinate multilingual content and regional review | [LocaleFlow](projects/localization-engine/README.md) | Architecture and fictional interface screenshots |
+| Find and research relevant prospects | [ProspectFlow](projects/prospectflow/README.md) | Three animated discovery and enrichment walkthroughs |
+| Prioritize accounts and prepare relevant outreach | [SignalFlow](projects/signalflow/README.md) | Three animated scoring, acquisition, and content workflows |
+| Answer regional visitors and understand their needs | [ConversationIQ](projects/conversationiq/README.md) | Three animated workflows and a fictional input-to-insight example |
+| Route inquiries and coordinate sales follow-up | [LeadFlow](projects/leadflow/README.md) | Three animated routing, assignment, and status-update workflows |
 
-| Area | Applications |
-|---|---|
-| AI workflow orchestration | Research, classification, content processing, and coordinated model calls |
-| CRM & RevOps automation | Enrichment, qualification, record updates, and reporting |
-| B2B research systems | Company discovery, configurable prospect searches, and evaluation |
-| Localization operations | Translation, regional review, approvals, and feedback capture |
-| Custom business interfaces | Google Sheets control panels and Apps Script chat interfaces |
-| Data processing | Document extraction and structured reporting pipelines |
+These case studies describe my professional work through independent portfolio illustrations. Available assets are labeled separately from planned demonstrations.
 
-## Project Showcases
+## 01 · LocaleFlow
+### AI Localization & Regional Review
 
-*Case studies and independent demonstrations are being prepared.*
+**Bring order to translation requests, proofreading, and delivery.**
 
-### 01 · AI Localization & Review Engine
-**Turn a multilingual content process into a coordinated workflow.**
+I designed and implemented a localization system used by a global marketing department. It coordinates English content intake, translation, AI-assisted review, regional proofreading, reminders, delivery, terminology guidance, reviewer feedback, and cost tracking.
 
-Demonstration scope: content intake, translation, AI review against regional guidelines, human proofreading, approval, and delivery.
+The portfolio uses fictional interfaces and manually authored sample results to explain these capabilities.
 
-The case study will explain how reviewer corrections can update context used in future runs, alongside execution and cost tracking.
+**Stack:** Make.com, Google Sheets, DeepL, Anthropic Claude, Gmail.
 
-**Technologies:** Make.com, Google Sheets, DeepL, Anthropic Claude, Gmail.
+[Explore LocaleFlow →](projects/localization-engine/README.md)
 
----
+## 02 · ProspectFlow
+### Company Discovery & Contact Enrichment
 
-### 02 · B2B Company & Prospect Research Automation
-**Turn search criteria into a structured prospect shortlist.**
+**Turn company domains into researched, prioritized contact records.**
 
-Demonstration scope: company discovery, configurable people searches, profile research, AI-assisted evaluation, and a human review queue.
+Discover LinkedIn company pages and regional variations, capture follower counts, find relevant people, analyze available posting activity, score profiles, and perform waterfall email enrichment. Google Sheets organizes the process, and findings synchronize to HubSpot.
 
-The case study will cover optional filters, incomplete results, classification logic, and execution-cost visibility.
+**Stack:** Make.com, Google Sheets, Apify, Apollo, Perplexity, OpenAI, HubSpot, 6sense.
 
-**Technologies:** Make.com, Apify, Perplexity, OpenAI, Google Sheets.
+[Explore ProspectFlow →](projects/prospectflow/README.md)
 
----
+## 03 · SignalFlow
+### Account Scoring & Outreach Preparation
 
-### 03 · ConversationIQ — AI Chat & Conversation Intelligence
-**Turn regional website conversations into accessible demand intelligence.**
+**Carry company research from account prioritization through to the prepared message.**
 
-Configured a HubSpot Breeze agent with region-aware CSV knowledge sources and regional link-selection instructions. Built a Make.com and OpenAI workflow to analyze conversation intent, use cases, product interest, and form submissions, with Perplexity and Apify research for available company and contact records.
+Score companies using multiple signals and present priority accounts for sales review. Sales selects relevant roles and triggers the permitted contact-acquisition route. Company and person research then informs cold-email drafts and infographic content, with outputs synchronized to HubSpot for review and sending.
 
-A custom Google Sheets chat interface lets the team ask questions about the reporting data, especially the applications visitors describe. All three operational components are live; public demonstration assets are planned.
+**Stack:** Make.com, Google Sheets, Apollo, HubSpot, Apify, OpenAI, Perplexity.
 
-**Technologies:** HubSpot Breeze, Make.com, OpenAI, Perplexity, Apify, Google Sheets, Google Apps Script.
+[Explore SignalFlow →](projects/signalflow/README.md)
 
-[View ConversationIQ case study →](projects/conversationiq/README.md)
+## 04 · ConversationIQ
+### Regional AI Chat & Conversation Intelligence
 
----
+**Connect visitor assistance with useful demand insights.**
 
-### 04 · CRM Research & Qualification Pipeline
-**Turn incoming contacts into researched, reviewable CRM information.**
+I configured HubSpot Breeze with regional CSV knowledge sources and link-selection instructions. I also built an analysis workflow that organizes conversation intent, use cases, product interest, and available company/contact research.
 
-Demonstration scope: contact intake, company research, structured classification, and proposed record updates.
+A custom Google Sheets chat interface lets the team explore the reporting data through questions. All three operational components are live; the public animations and fictional example illustrate the approach.
 
-The case study will explain data validation, handling unknown information, and review before writing results to a CRM.
+**Stack:** HubSpot Breeze, Make.com, OpenAI, Perplexity, Apify, Google Sheets, Google Apps Script.
 
-**Technologies:** HubSpot, Make.com, Apify, Perplexity, OpenAI, Google Sheets.
+[Explore ConversationIQ →](projects/conversationiq/README.md)
 
----
+## 05 · LeadFlow
+### Regional Lead Assignment & Follow-Up
 
-### 05 · SignalFlow — AI Account Scoring & Outreach Preparation
-**Turn company signals into prioritized accounts and research-informed outreach.**
+**Connect website inquiries with accountable sales handoffs and status reporting.**
 
-Score companies, present priority accounts for sales review, and let sales trigger contact acquisition for selected roles through the organization's permitted process. Combine company and individual research to prepare cold-email drafts and infographic content, then synchronize outputs to HubSpot.
+Built entirely in HubSpot: regional routing, notifications with assignment-form links, handoffs to internal business developers or external resellers, status-update forms, CRM property updates, and weekly reminders.
 
-**Technologies:** Make.com, Google Sheets, Apollo, HubSpot, Apify, OpenAI, Perplexity.
+**Stack:** HubSpot forms, workflows, CRM properties, email and internal notifications.
 
-[View SignalFlow case study →](projects/signalflow/README.md)
+[Explore LeadFlow →](projects/leadflow/README.md)
 
----
+## How I Work
 
-### 06 · LeadFlow — Regional Lead Assignment & Follow-Up
-**Connect website inquiries, regional decisions, and ongoing sales follow-up.**
-
-Built entirely in HubSpot: regional routing, assignment forms for internal business developers or external resellers, handoff notifications, status-update forms, CRM property updates, and weekly reminders.
-
-**Technologies:** HubSpot forms, workflows, CRM properties, email and internal notifications.
-
-[View LeadFlow case study →](projects/leadflow/README.md)
-
-## Engineering Approach
-
-I start with the business process and define the inputs, decisions, outputs, and ownership before building.
+I start with the business process: its inputs, decisions, outputs, and owners. I then build the workflow and an interface the team can use.
 
 My approach includes:
 
-- Choosing where deterministic rules or AI judgment are appropriate.
+- Choosing where rules or AI judgment are appropriate.
 - Validating inputs and handling missing information.
 - Designing routing, error handling, and recovery.
-- Including human review where decisions require it.
-- Tracking execution costs and operational status.
+- Keeping human review where decisions require it.
+- Tracking execution costs and operational status where applicable.
 - Testing realistic cases and documenting the handoff.
 
 ## Technical Toolkit
 
-**Orchestration:** Make.com, webhooks, REST API integrations, JSON processing  
-**CRM & marketing operations:** HubSpot, 6sense, Semrush  
+**Orchestration:** Make.com, webhooks, REST APIs, JSON processing  
+**CRM & marketing operations:** HubSpot, 6sense, Apollo, Semrush  
 **AI & research:** OpenAI, Anthropic Claude, DeepL, Perplexity, Apify  
 **Interfaces & delivery:** Google Apps Script, Google Sheets, Google Slides, Google Workspace
 
 ## About This Portfolio
 
-This portfolio presents independently created demonstrations using fictional organizations and synthetic data.
+The case studies describe professional capabilities using independently created diagrams, animations, and synthetic examples. Public assets do not contain employer configurations, customer records, credentials, proprietary prompts, or confidential business rules.
 
-The demonstrations illustrate skills developed through professional experience. They do not reproduce employer systems or disclose internal workflows, customer information, proprietary prompts, or confidential business rules.
-
-Any published performance measurements will identify whether they come from a demonstration or an authorized real-world case study.
+Illustrative examples are labeled and are not presented as live automation results. No unmeasured performance gains are claimed.
 
 ## Languages & Location
-
-[View LocaleFlow case study →](projects/localization-engine/README.md)
 
 📍 Taipei, Taiwan  
 English · Native Spanish · Intermediate Mandarin

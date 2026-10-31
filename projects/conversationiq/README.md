@@ -4,7 +4,7 @@
 **Answer visitors → understand demand → ask questions of the data**
 
 **Production experience:** All three components are live, as reported by the builder.  
-**Portfolio status:** Case-study overview and conceptual diagrams available. Public example records, interfaces, and walkthrough assets remain planned.
+**Portfolio status:** Case-study overview, conceptual diagrams, and three animated workflow walkthroughs available. Synthetic example records and interface demonstrations remain planned.
 
 ## The Business Problem
 
@@ -140,14 +140,36 @@ The system connects visitor assistance with structured demand intelligence and a
 
 No numerical claims about conversion lift, analyst time saved, classification accuracy, or link-retrieval accuracy are made here.
 
+## Animated Workflow Walkthroughs
+
+These independent animations illustrate the capabilities at a conceptual level. They contain no production records, visitor conversations, internal screenshots, or proprietary configurations.
+
+### 1. Regional Knowledge & Link Selection
+
+CSV knowledge sources organize product page variations by region. Explicit labels around URLs and regional agent instructions guide HubSpot Breeze toward relevant answers and regional destinations.
+
+![ConversationIQ regional knowledge design and Breeze link selection](images/01-regional-ai-knowledge.gif)
+
+### 2. Conversation Analysis & Research
+
+OpenAI turns raw threads into structured intent, use-case, product-interest, and inquiry data. Where identifying context is available, Perplexity and Apify add company and professional-interest research. The organized results are stored in Google Sheets.
+
+![ConversationIQ conversation analysis and conditional company and person enrichment](images/02-conversation-analysis.gif)
+
+### 3. Conversational Reporting
+
+A question entered through the custom Google Sheets chat window passes to the Make.com agent. The workflow retrieves relevant reporting records, analyzes themes, and returns insights to the chat interface.
+
+![ConversationIQ Google Sheets chat and Make.com conversational reporting](images/03-conversational-reporting.gif)
+
 ## Planned Portfolio Assets
 
 Independent assets will use fictional products, synthetic conversations, and invented company and contact records:
 
-1. A regional knowledge-source and link-selection walkthrough.
-2. An animated conversation-analysis and research flow.
-3. A reporting-chat walkthrough with sample use-case questions.
-4. A small synthetic dataset showing intent, use cases, company type, and research context.
+1. A fictional regional knowledge-source example.
+2. A synthetic conversation-analysis output with intent and use-case fields.
+3. A reporting-chat interface demonstration with sample use-case questions.
+4. A small synthetic dataset showing company type and research context.
 
 These assets will illustrate the capabilities without publishing production CSVs, raw visitor conversations, internal prompts, personal records, or employer-specific configuration.
 

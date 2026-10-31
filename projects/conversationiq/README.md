@@ -4,7 +4,7 @@
 **Answer visitors → understand demand → ask questions of the data**
 
 **Production experience:** All three components are live, as reported by the builder.  
-**Portfolio status:** Case-study overview, conceptual diagrams, and three animated workflow walkthroughs available. Synthetic example records and interface demonstrations remain planned.
+**Portfolio status:** Case-study overview, conceptual diagrams, and three animated workflow walkthroughs available. A manually authored fictional input-to-insight example is included below; interactive interface demonstrations remain planned.
 
 ## The Business Problem
 
@@ -119,6 +119,48 @@ flowchart TD
     F["Conversation analysis and research"] --> C
 ```
 
+## Fictional Example: From Inquiry to Insight
+
+**Manually authored illustration—not a production transcript, live enrichment result, or executed agent response.** All names, products, and records below are invented.
+
+### Input: A Visitor Inquiry
+
+> “I'm Maya, a project manager at Northbridge Integration. We integrate maintenance systems for water utilities. We're looking at the TerraForge FieldBook for technicians inspecting pump stations. Can it be used with gloves in wet conditions? Please send me the UK product page. I'd like someone to contact me about a pilot.”
+
+For this example, assume a UK chat context and a submitted contact form.
+
+### Structured Analysis
+
+| Field | Illustrative value | Basis |
+|---|---|---|
+| Region | UK | Assumed chat context and explicit link request |
+| Inquiry type | Product suitability and sales inquiry | Questions about operating conditions and a pilot |
+| Conversation intent | Evaluate a device for a field pilot | Explicitly stated |
+| Use case | Pump-station inspections by maintenance technicians | Explicitly stated |
+| Product mentioned | TerraForge FieldBook | Fictional product named in the inquiry |
+| Operating requirements | Gloves and wet conditions | Requirements to investigate, not confirmed product capabilities |
+| Company | Northbridge Integration | Fictional company supplied by the visitor |
+| Company type | Possible system integrator | Visitor describes integration work; research would be needed to confirm |
+| Person / role | Maya / project manager | Visitor-supplied information |
+| Sales potential | Pilot inquiry for sales review | Illustrative assessment, not a proprietary scoring rule |
+| Form submission | Yes | Assumed example event |
+
+The regional knowledge design helps guide selection of a UK destination. Product-suitability questions require supporting knowledge; the inquiry itself is not evidence that the device meets those requirements.
+
+### Research Handoff
+
+The company name and submitted-contact information provide a starting point for research. The workflow can investigate the organization's integration specialties and available professional profile information.
+
+No LinkedIn posts, personal interests, or external research findings are invented here. If those sources are unavailable, the example remains incomplete rather than presenting unsupported details as facts.
+
+### Reporting Question & Illustrative Answer
+
+**Question:** “What use cases are UK visitors describing?”
+
+**Example answer:** “In this single sample record, the visitor describes pump-station inspections by utility maintenance technicians. The stated requirements include glove use and wet conditions, and the visitor requests contact about a pilot.”
+
+One record illustrates how a conversation becomes usable reporting context. It does not establish a trend or a real-world performance result.
+
 ## Technology Roles
 
 | Technology | Role |
@@ -167,7 +209,7 @@ A question entered through the custom Google Sheets chat window passes to the Ma
 Independent assets will use fictional products, synthetic conversations, and invented company and contact records:
 
 1. A fictional regional knowledge-source example.
-2. A synthetic conversation-analysis output with intent and use-case fields.
+2. An executed synthetic conversation-analysis demonstration complementing the manually authored example.
 3. A reporting-chat interface demonstration with sample use-case questions.
 4. A small synthetic dataset showing company type and research context.
 

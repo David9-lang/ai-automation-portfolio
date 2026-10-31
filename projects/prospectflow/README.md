@@ -2,7 +2,7 @@
 ### Company Discovery, Prospect Research & Email Enrichment
 
 **Independent portfolio case study · Demonstration assets will use synthetic data**  
-**Status:** Case-study overview and three animated workflow illustrations available. Fictional interface examples and demonstration results are being prepared.
+**Status:** Case-study overview and three animated workflow illustrations available. A written fictional domain-to-prospect example is included; executable demos and interface examples remain planned.
 
 ## The Business Problem
 
@@ -93,9 +93,67 @@ Individual records are checked against HubSpot first. Existing contacts bypass t
 
 ![HubSpot lookup, waterfall enrichment, and CRM synchronization](images/03-waterfall-enrichment-crm.gif)
 
-## Demonstration Assets — Planned
+## Fictional Example: From Domain to Researched Prospect
 
-The independent demonstration will use fictional organizations and synthetic contact records to illustrate:
+**Manually authored illustration.** Companies, people, page records, follower counts, activity summaries, and enrichment outcomes are synthetic. No live search, enrichment, CRM update, or LinkedIn retrieval was executed.
+
+### Search Input
+
+| Field | Sample value |
+|---|---|
+| Company | Harborline Water Services |
+| Domain | harborline.example |
+| Region | UK |
+| Roles of interest | Operations and field-service leadership |
+| Seniority | Director |
+| Keyword | Inspection workflows |
+
+The reserved example domain is a placeholder, not a research target.
+
+### Company Discovery
+
+| Result | Illustrative data |
+|---|---|
+| Primary company record | Harborline Water Services — global page |
+| Regional variation | Harborline Water Services — UK page |
+| Regional-page followers | 8,400 — invented sample count |
+| Apify result | Primary page found; UK variation not returned |
+| Perplexity fallback | Candidate UK page supplied for review |
+| Review decision | Accept the UK variation for this fictional record |
+
+Page names represent synthetic records rather than real LinkedIn destinations. The example demonstrates the fallback path; it does not assert that a fallback result is inherently correct.
+
+### Profile Research & Prioritization
+
+| Field | Sample output |
+|---|---|
+| Person | Lena Cruz — fictional |
+| Job title | Director of Field Operations |
+| Region | UK |
+| Relevant responsibilities | Field-inspection operations |
+| Illustrative posting themes | Offline inspection forms and maintenance handoffs |
+| Priority | High for human review |
+| Rationale | Role, region, and sample activity align with the selected criteria |
+
+The posting themes are invented inputs for this scenario, not statements about a real person's LinkedIn activity. The priority is an illustrative assessment, not an employer scoring rule.
+
+### Enrichment & CRM Handoff
+
+| Stage | Illustrative outcome |
+|---|---|
+| HubSpot lookup | No matching contact found |
+| Apollo enrichment | No email returned |
+| 6sense check | Additional company context available; no contact email in this example |
+| Perplexity research | No sufficiently supported contact email located |
+| Final email field | Blank |
+| Handoff status | Research available; email unresolved |
+| CRM payload | Company, name, role, region, research summary, priority, and unresolved-email status |
+
+The useful output is a researched prospect record even when an email is unavailable. No email is guessed, no address is labeled verified, and the sample CRM payload is not a live write.
+
+## Executable Demonstration — Planned
+
+A future executable demonstration will complement the written example with synthetic records illustrating:
 
 1. Domain intake and company discovery, including regional variations.
 2. A prospect shortlist with illustrative scores and posting-topic summaries.

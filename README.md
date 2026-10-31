@@ -10,11 +10,11 @@ Based in Taipei, I bring 10 years of experience across digital marketing, SEO, b
 
 | Business need | Case study | What you can explore |
 |---|---|---|
-| Coordinate multilingual content and regional review | [LocaleFlow](projects/localization-engine/README.md) | Architecture and fictional interface screenshots |
-| Find and research relevant prospects | [ProspectFlow](projects/prospectflow/README.md) | Three animated discovery and enrichment walkthroughs |
-| Prioritize accounts and prepare relevant outreach | [SignalFlow](projects/signalflow/README.md) | Three animated scoring, acquisition, and content workflows |
+| Coordinate multilingual content and regional review | [LocaleFlow](projects/localization-engine/README.md) | Architecture, interface screenshots, and a source-to-approval example |
+| Find and research relevant prospects | [ProspectFlow](projects/prospectflow/README.md) | Three animated workflows and a domain-to-prospect example |
+| Prioritize accounts and prepare relevant outreach | [SignalFlow](projects/signalflow/README.md) | Three animations plus sample research, email copy, and an infographic brief |
 | Answer regional visitors and understand their needs | [ConversationIQ](projects/conversationiq/README.md) | Three animated workflows and a fictional input-to-insight example |
-| Route inquiries and coordinate sales follow-up | [LeadFlow](projects/leadflow/README.md) | Three animated routing, assignment, and status-update workflows |
+| Route inquiries and coordinate sales follow-up | [LeadFlow](projects/leadflow/README.md) | Three animated workflows and an inquiry-to-update example |
 
 These case studies describe my professional work through independent portfolio illustrations. Available assets are labeled separately from planned demonstrations.
 

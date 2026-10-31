@@ -3,7 +3,7 @@
 
 **Company intelligence → sales review → contact acquisition → personalized outreach drafts**
 
-**Status:** Case-study overview, conceptual architecture, and three animated workflow walkthroughs available. Fictional interface examples and sample outputs are planned.
+**Status:** Case-study overview, conceptual architecture, and three animated workflow walkthroughs available. A written fictional example includes a research summary, priority assessment, email draft, infographic brief, and sample CRM handoff. Executable demos and interface examples remain planned.
 
 ## The Business Problem
 
@@ -70,7 +70,7 @@ Outputs include:
 - Infographic content supporting the outreach message.
 - Research and prepared outputs synchronized to the CRM.
 
-The format of visual infographic deliverables will be documented with future demo assets. No finished-design or file-export capability is claimed by this overview.
+A written infographic-content brief is included in the fictional example below. Visual-design and file-export demonstrations remain planned.
 
 ## Technology Roles
 
@@ -114,9 +114,105 @@ Company research and individual profile context support personalized cold-email 
 
 ![SignalFlow email and infographic content creation with HubSpot synchronization](images/03-outreach-content-crm.gif)
 
-## Planned Portfolio Demonstration
+## Fictional Example: From Company Signals to Outreach Draft
 
-Independent assets will use fictional companies, synthetic profiles, and illustrative scores:
+**Manually authored illustration.** All company facts, people, project signals, activity themes, and review decisions below are invented. No live research, scoring execution, enrichment, CRM update, or email send occurred. The example criteria are independent of employer scoring rules.
+
+### 1. Company Research Input
+
+| Field | Synthetic scenario |
+|---|---|
+| Company | Harborline Water Services |
+| Domain | harborline.example — placeholder only |
+| Business context | Utility field maintenance |
+| Project signal | Planning an inspection-workflow pilot |
+| Operational context | Technicians record observations at remote pump stations |
+| Process need | Consistent inspection records and clearer maintenance handoffs |
+| Person of interest | Lena Cruz, Director of Field Operations — fictional |
+| Professional activity | A sample post discusses offline inspection forms; this is invented context, not a retrieved post. |
+
+The fictional offer for this example is help designing a field-inspection workflow. These are scenario inputs, not verified company claims.
+
+### 2. Illustrative Priority Assessment
+
+| Dimension | Example assessment | Reason |
+|---|---|---|
+| Use-case relevance | Strong | The inspection process aligns with the fictional offer. |
+| Project timing | Worth reviewing | A pilot is being planned in the scenario. |
+| Role relevance | Strong | Field operations leadership is involved in the process. |
+| Evidence quality | Synthetic only | No real research has been performed. |
+| Overall queue position | High — illustrative | Present to sales for a decision, not an automatic acquisition trigger. |
+
+No numeric weights or proprietary scoring thresholds are disclosed or implied.
+
+### 3. Sales Decision & Contact Route
+
+| Decision | Sample action |
+|---|---|
+| Account review | Sales selects the account for follow-up preparation. |
+| Roles to pursue | Field operations leadership |
+| Acquisition route | Apollo contact acquisition only after the organization's required approval; otherwise use the profile-based route. |
+| Example branch | LinkedIn profile reference selected; email acquisition not triggered. |
+| Email address | Blank |
+| Next step | Prepare content for review without treating the record as ready for email sending. |
+
+This makes the human decision visible between the company priority and contact acquisition.
+
+### 4. Prepared Cold-Email Draft
+
+The following draft demonstrates how the fictional research context can shape a message. It is prepared copy only: the example has no acquired email address or sending authorization.
+
+**Subject:** A workflow map for your inspection pilot
+
+> Hi Lena,
+>
+> For the pump-station inspection pilot you're planning, the transition from field observations to maintenance follow-up looks like a useful place to start.
+>
+> I could help map how technicians capture findings, how those findings reach the right team, and how follow-up status is recorded. We could use that map to define the pilot requirements before choosing the implementation.
+>
+> Would a one-page draft of that workflow be useful?
+>
+> David
+
+The draft connects a specific operational use case to a small next step. It introduces no invented performance gains, product capabilities, customer references, or claims of previous contact.
+
+### 5. Infographic Content Brief
+
+**Working title:** From Field Inspection to Maintenance Follow-Up  
+**Audience:** Field operations and maintenance leads  
+**Purpose:** Make the proposed pilot workflow easy to review.
+
+| Panel | Prepared copy | Suggested visual |
+|---|---|---|
+| Capture | Record the location, finding, and supporting notes during the inspection. | Inspection-form icon |
+| Organize | Structure the observation so the receiving team has the context it needs. | Organized-record card |
+| Assign | Route the finding to the responsible maintenance team. | Assignment arrow |
+| Follow through | Record progress and return a visible status update. | Status checklist |
+
+**Closing question:** “Which handoff should the pilot improve first?”
+
+This is an editorial brief and copy outline, not a finished infographic file or a live generated asset. It describes a proposed process rather than claiming the prospect already uses it.
+
+### 6. Example CRM Handoff
+
+| Field | Illustrative value |
+|---|---|
+| Company | Harborline Water Services |
+| Research status | Synthetic portfolio example |
+| Priority | High — illustrative |
+| Sales decision | Selected for preparation |
+| Contact route | Profile-based; email not acquired |
+| Person / role | Lena Cruz / Director of Field Operations |
+| Email draft | Prepared for human review |
+| Infographic brief | Prepared for human review |
+| Send readiness | Not ready: no acquired email address or recorded approval in this example |
+| Actual CRM sync | Not executed |
+
+The example carries account and person context through to reviewable content while keeping acquisition, content preparation, and sending as distinct decisions.
+
+## Executable Demonstration — Planned
+
+Future executable and interface assets will complement the manually authored example using fictional companies, synthetic profiles, and illustrative scores:
 
 1. An account-scoring and sales-review interface.
 2. A sample contact-acquisition interface complementing the animated walkthrough.
@@ -124,7 +220,7 @@ Independent assets will use fictional companies, synthetic profiles, and illustr
 4. A cold-email draft and infographic-content example.
 5. A sample CRM record showing the resulting research and outreach outputs.
 
-These assets are planned, not screenshots or results from a completed public demo.
+These executable and interface assets remain planned. The written samples above are available and explicitly labeled as manually authored.
 
 ## Evidence & Disclosure
 

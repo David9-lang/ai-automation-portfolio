@@ -4,7 +4,7 @@
 **Website inquiry → regional routing → assignment → status updates → weekly reminders**
 
 **Platform:** HubSpot  
-**Portfolio assets:** Three animated conceptual walkthroughs. No live customer records or internal configurations are included.
+**Portfolio assets:** Three animated conceptual walkthroughs and a written fictional inquiry-to-update example. No live customer records or internal configurations are included.
 
 ## The Business Problem
 
@@ -71,6 +71,51 @@ The regional recipient submits an assignment form. The workflow follows the sele
 Recipients submit progress through a HubSpot form, updating status and related CRM properties. Weekly reminders prompt further updates and support regional visibility into follow-up.
 
 ![LeadFlow status forms, CRM property updates, and weekly reminders](images/03-status-weekly-reminders.gif)
+
+## Fictional Example: From Inquiry to Follow-Up Update
+
+**Manually authored illustration.** Companies, people, regions, statuses, and CRM field labels below are synthetic. No form submission, notification, workflow execution, or CRM update occurred. These are example labels, not employer property names.
+
+### Inquiry & Regional Assignment
+
+| Stage | Sample record or decision |
+|---|---|
+| Lead reference | DEMO-LEAD-001 |
+| Company | Harborline Water Services — fictional |
+| Website inquiry | “We would like to discuss devices for field inspections.” |
+| Region | Region West — fictional |
+| Routing result | Notify the Region West coordinator. |
+| Notification content | Inquiry summary and links to the internal-BD and reseller assignment forms |
+| Assignment submission | Coordinator selects the reseller route and chooses Northbridge Field Partner — fictional. |
+| Handoff | The selected reseller receives an email with the lead information and status-update step. |
+
+This example follows one regional path. It does not reproduce a real routing rule, partner roster, or internal notification template.
+
+### Status-Update Form
+
+| Example form field | Sample submitted value |
+|---|---|
+| Lead reference | DEMO-LEAD-001 |
+| Follow-up status | Contact attempted |
+| Progress note | Introductory message sent; awaiting a response. |
+| Next action | Follow up to arrange a discovery call. |
+
+The form submission updates the corresponding illustrative lead-status and progress fields.
+
+### Weekly Reminder & Regional Visibility
+
+At an illustrative weekly checkpoint, a reminder asks the assigned recipient to submit the latest progress through the status-update form.
+
+| CRM information | What the regional team can see in this example |
+|---|---|
+| Assigned route | Reseller |
+| Assigned partner | Northbridge Field Partner — fictional |
+| Latest status | Contact attempted |
+| Latest progress | Awaiting a response |
+| Next action | Arrange a discovery call |
+| Reminder cadence | Weekly |
+
+This example shows the reminder cadence, not a precise enrollment schedule, stop condition, or escalation policy. Internal business developers use the corresponding assignment and update route described in the workflow.
 
 ## HubSpot Components
 

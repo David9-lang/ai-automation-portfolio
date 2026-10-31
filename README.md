@@ -65,6 +65,17 @@ The case study will explain data validation, handling unknown information, and r
 
 **Technologies:** HubSpot, Make.com, Apify, Perplexity, OpenAI, Google Sheets.
 
+---
+
+### 05 · SignalFlow — AI Account Scoring & Outreach Preparation
+**Turn company signals into prioritized accounts and research-informed outreach.**
+
+Score companies, present priority accounts for sales review, and let sales trigger contact acquisition for selected roles through the organization's permitted process. Combine company and individual research to prepare cold-email drafts and infographic content, then synchronize outputs to HubSpot.
+
+**Technologies:** Make.com, Google Sheets, Apollo, HubSpot, Apify, OpenAI, Perplexity.
+
+[View SignalFlow case study →](projects/signalflow/README.md)
+
 ## Engineering Approach
 
 I start with the business process and define the inputs, decisions, outputs, and ownership before building.

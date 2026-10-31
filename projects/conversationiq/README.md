@@ -1,0 +1,160 @@
+# ConversationIQ
+### Regional AI Chat, Conversation Analysis & Conversational Reporting
+
+**Answer visitors → understand demand → ask questions of the data**
+
+**Production experience:** All three components are live, as reported by the builder.  
+**Portfolio status:** Case-study overview and conceptual diagrams available. Public example records, interfaces, and walkthrough assets remain planned.
+
+## The Business Problem
+
+A global website AI agent needs to answer accurately and direct visitors to the correct regional pages. Product names alone may not distinguish the appropriate destination when the same product appears across multiple markets.
+
+The conversations also contain valuable information: what visitors want to achieve, which products they mention, what projects they describe, and whether they submit a form. Raw threads are difficult for a marketing team to review at scale.
+
+ConversationIQ presents three connected capabilities: regional knowledge-base design, automated conversation analysis and research, and a chat interface for exploring the resulting data.
+
+## My Role
+
+I configured the HubSpot Breeze website agent, built its CSV knowledge sources and regional instructions, and developed both the conversation analysis workflow and the reporting chat interface.
+
+I built the supporting workflows in Make.com, using OpenAI for analysis, Perplexity and Apify for company and person research, and Google Sheets for organized data and the custom chat window.
+
+My responsibilities covered knowledge architecture, regional response guidance, workflow implementation, structured analysis, research enrichment, and the reporting interface.
+
+## 1. Regional Website AI Agent
+
+### Region-Aware Knowledge Design
+
+I structured CSV knowledge sources to associate each product with its regional page variations.
+
+Each URL entry has explicit region labels before and after the link. This gives the agent repeated local context for distinguishing otherwise similar product destinations. I reinforced that structure with region-specific agent instructions governing responses and link selection.
+
+| Layer | Implementation | Purpose |
+|---|---|---|
+| Knowledge organization | Product records include regional page variations. | Keep related destinations together. |
+| URL context | Region labels appear before and after each URL. | Make the intended market explicit during retrieval. |
+| Agent instructions | Region-specific response and link-selection rules. | Guide the agent toward the appropriate regional destination. |
+
+I implemented this approach and found it effective in operation. No measured retrieval-accuracy rate is claimed in this case study.
+
+### Conceptual Knowledge Flow
+
+```mermaid
+flowchart TD
+    A["Product CSV: regional page variations"] --> B["Explicit region labels around URLs"]
+    B --> C["HubSpot Breeze knowledge sources"]
+    D["Regional response and link rules"] --> E["Website AI agent"]
+    C --> E
+    F["Visitor question and regional context"] --> E
+    E --> G["Answer with regional destination"]
+```
+
+Breeze provides the website customer agent. My contribution was configuring it and designing the knowledge and instructions that support regional responses.
+
+## 2. Conversation Analysis & Research Agent
+
+Make.com and OpenAI turn raw conversation threads into structured reporting data.
+
+The analysis captures both the subject of the conversation and the use case the visitor describes, helping the team understand demand beyond product-name counts.
+
+| Analysis dimension | Information organized |
+|---|---|
+| Region | Regional context of the inquiry |
+| Inquiry type | The category of request |
+| Conversation intent | What the visitor is trying to accomplish |
+| Use cases | The applications or projects described in the conversation |
+| Product interest | Products mentioned |
+| Company | Available company information |
+| Sales potential | AI-assisted assessment for internal review |
+| Form submission | Whether the visitor submitted a form |
+
+### Company & Person Research
+
+Perplexity and Apify add research context where the available company and submitted-contact information supports it.
+
+Company research examines the type of organization, including whether it is a system integrator and the kind of integration work it performs. Person research examines available job-title, project, and LinkedIn posting information to understand professional interests.
+
+These research profiles support inbound marketing decisions and help the team connect expressed use cases with relevant company and person context.
+
+This is research enrichment of available records, not a claim to identify every anonymous website visitor. The case study does not establish an identity-resolution method for visitors without sufficient identifying information.
+
+### Conceptual Analysis Flow
+
+```mermaid
+flowchart TD
+    A["HubSpot conversation threads"] --> B["Make.com analysis workflow"]
+    B --> C["OpenAI: intent, use cases, and structured fields"]
+    C --> D["Google Sheets reporting data"]
+    C --> E["Available company and submitted-contact context"]
+    E --> F["Perplexity and Apify research"]
+    F --> G["Company type and professional-interest context"]
+    G --> D
+```
+
+AI-generated classifications and researched context are assessments rather than independently verified facts.
+
+## 3. Conversational Reporting Interface
+
+I built a custom chat window in Google Sheets, connected to a Make.com agent, so users can interact with the reporting data through natural-language questions.
+
+The interface supports insight questions, especially around the applications visitors describe and how they intend to use the devices.
+
+Illustrative questions include:
+
+- What use cases appear most often in the conversations?
+- What applications are visitors describing for a particular product?
+- What themes emerge from system-integrator inquiries?
+
+These are examples of the intended reporting questions, not published test results. This case study describes retrieval, analysis, and summaries; data-editing actions are outside the documented scope.
+
+### Conceptual Question-to-Insight Flow
+
+```mermaid
+flowchart TD
+    A["Google Sheets chat window"] --> B["Make.com conversational agent"]
+    B --> C["Query organized reporting data"]
+    C --> D["Analyze relevant records"]
+    D --> E["Return insights to the chat window"]
+    F["Conversation analysis and research"] --> C
+```
+
+## Technology Roles
+
+| Technology | Role |
+|---|---|
+| HubSpot Breeze | Regional website AI customer agent |
+| CSV knowledge files | Product and regional URL organization |
+| Make.com | Conversation-analysis orchestration and reporting-agent backend |
+| OpenAI | Structured conversation analysis and AI-supported reporting |
+| Perplexity | Company and person research support |
+| Apify | Supporting company and professional-profile data collection |
+| Google Sheets | Organized reporting data and custom chat interface |
+| Google Apps Script | Custom interface development |
+
+## Operational Outcome
+
+All three components are live: the configured website agent, the conversation-analysis and enrichment workflow, and the Google Sheets reporting chat.
+
+The system connects visitor assistance with structured demand intelligence and a conversational way for the team to explore that intelligence. The resulting insights help inform inbound marketing, particularly around visitor use cases and professional interests.
+
+No numerical claims about conversion lift, analyst time saved, classification accuracy, or link-retrieval accuracy are made here.
+
+## Planned Portfolio Assets
+
+Independent assets will use fictional products, synthetic conversations, and invented company and contact records:
+
+1. A regional knowledge-source and link-selection walkthrough.
+2. An animated conversation-analysis and research flow.
+3. A reporting-chat walkthrough with sample use-case questions.
+4. A small synthetic dataset showing intent, use cases, company type, and research context.
+
+These assets will illustrate the capabilities without publishing production CSVs, raw visitor conversations, internal prompts, personal records, or employer-specific configuration.
+
+## Portfolio Disclosure
+
+ConversationIQ is an independent portfolio name for this case study. The operational experience described is distinct from the planned public demonstration.
+
+Conceptual diagrams summarize the capabilities and do not reproduce internal scenarios or proprietary configuration. Employer records, credentials, customer information, internal instructions, and confidential implementation details are excluded.
+
+[Back to portfolio](../../README.md)

@@ -78,6 +78,17 @@ Score companies, present priority accounts for sales review, and let sales trigg
 
 [View SignalFlow case study →](projects/signalflow/README.md)
 
+---
+
+### 06 · LeadFlow — Regional Lead Assignment & Follow-Up
+**Connect website inquiries, regional decisions, and ongoing sales follow-up.**
+
+Built entirely in HubSpot: regional routing, assignment forms for internal business developers or external resellers, handoff notifications, status-update forms, CRM property updates, and weekly reminders.
+
+**Technologies:** HubSpot forms, workflows, CRM properties, email and internal notifications.
+
+[View LeadFlow case study →](projects/leadflow/README.md)
+
 ## Engineering Approach
 
 I start with the business process and define the inputs, decisions, outputs, and ownership before building.

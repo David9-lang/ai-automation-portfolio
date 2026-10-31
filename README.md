@@ -45,14 +45,16 @@ The case study will cover optional filters, incomplete results, classification l
 
 ---
 
-### 03 · Conversational Analytics Agent
-**Give teams a conversational interface to operational reporting data.**
+### 03 · ConversationIQ — AI Chat & Conversation Intelligence
+**Turn regional website conversations into accessible demand intelligence.**
 
-Demonstration scope: an Apps Script chat interface connected to a Make.com backend and reporting tools.
+Configured a HubSpot Breeze agent with region-aware CSV knowledge sources and regional link-selection instructions. Built a Make.com and OpenAI workflow to analyze conversation intent, use cases, product interest, and form submissions, with Perplexity and Apify research for available company and contact records.
 
-The case study will show how questions become filtered data requests and answers with traceable source references.
+A custom Google Sheets chat interface lets the team ask questions about the reporting data, especially the applications visitors describe. All three operational components are live; public demonstration assets are planned.
 
-**Technologies:** Google Apps Script, Make.com, AI agents, Google Sheets.
+**Technologies:** HubSpot Breeze, Make.com, OpenAI, Perplexity, Apify, Google Sheets, Google Apps Script.
+
+[View ConversationIQ case study →](projects/conversationiq/README.md)
 
 ---
 

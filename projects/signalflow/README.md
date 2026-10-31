@@ -3,7 +3,7 @@
 
 **Company intelligence → sales review → contact acquisition → personalized outreach drafts**
 
-**Status:** Case-study overview and conceptual architecture available. Independent demo visuals and sample outputs are planned.
+**Status:** Case-study overview, conceptual architecture, and three animated workflow walkthroughs available. Fictional interface examples and sample outputs are planned.
 
 ## The Business Problem
 
@@ -92,12 +92,34 @@ Exact scoring weights, prompts, source configurations, and employer-specific tar
 
 SignalFlow starts with account prioritization and sales review, then connects selected accounts to contact acquisition and personalized outreach preparation. Its central value is carrying research context from the company score through to the prepared message.
 
+## Animated Workflow Walkthroughs
+
+These looping animations illustrate the business process using independently created visuals. They contain no live records, internal screenshots, or proprietary configurations.
+
+### 1. Account Scoring & Sales Review
+
+Company inputs and scoring criteria are organized in Google Sheets. Company research and available signals feed analysis and account scoring, then a priority queue gives sales the context to review which companies to pursue.
+
+![SignalFlow company research, account scoring, and sales review](images/01-account-scoring.gif)
+
+### 2. Contact Acquisition
+
+Sales selects the roles of interest and triggers the permitted acquisition route. The email route uses Apollo; the profile route retrieves relevant LinkedIn profiles through Apify. Available contact details or profile links synchronize to HubSpot for outreach preparation.
+
+![SignalFlow sales-triggered email or LinkedIn profile acquisition](images/02-contact-acquisition.gif)
+
+### 3. Outreach Content & CRM Synchronization
+
+Company research and individual profile context support personalized cold-email drafts and infographic content. The prepared outputs synchronize to HubSpot for review and sending through the team's established process.
+
+![SignalFlow email and infographic content creation with HubSpot synchronization](images/03-outreach-content-crm.gif)
+
 ## Planned Portfolio Demonstration
 
 Independent assets will use fictional companies, synthetic profiles, and illustrative scores:
 
 1. An account-scoring and sales-review interface.
-2. A sales-triggered contact-acquisition walkthrough.
+2. A sample contact-acquisition interface complementing the animated walkthrough.
 3. A company-and-person research summary.
 4. A cold-email draft and infographic-content example.
 5. A sample CRM record showing the resulting research and outreach outputs.
